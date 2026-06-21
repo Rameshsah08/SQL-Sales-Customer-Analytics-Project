@@ -199,17 +199,17 @@ Each module below is its own SQL script. For every one, I've outlined **why** I 
 
 ```
 sql-sales-customer-analytics/
-│
-├── Create table and insert data.sql            # Builds the gold schema & loads data from the warehouse
-├── Sales_Analysis.sql                          # Section 1 — Sales performance
-├── Products_Analysis.sql                       # Section 2 — Product performance
-├── Customer Analytics.sql                      # Section 3 — Customer behavior
-├── Customer Segmentation & Churn Analysis.sql   # Section 4 — Segmentation & churn
-├── RFM Analysis.sql                             # Section 5 — RFM scoring & segmentation
-├── Cohort & Retention Analysis.sql              # Section 6 — Cohort, retention & market basket
-│
-├── Archicture.png                               # Architecture diagram (image)
-├── PROJECT_3.drawio                             # Architecture diagram (editable draw.io source)
+├── Documentation
+  - Architecture.png                              # Architecture diagram (image)
+  - Data Warehouse.png                          # data_warehouse Architectuure diagram
+  - Project_Architcture_draw.oi.png              # Architecture diagram (editable draw.io source)
+├── 1. Create table and insert data.sql            # Builds the gold schema & loads data from the warehouse
+├── 2. Sales_Analysis.sql                          # Section 1 — Sales performance
+├── 3. Products_Analysis.sql                       # Section 2 — Product performance
+├── 4. Customer Analytics.sql                      # Section 3 — Customer behavior
+├── 5. Customer Segmentation & Churn Analysis.sql   # Section 4 — Segmentation & churn
+├── 6. RFM Analysis.sql                             # Section 5 — RFM scoring & segmentation
+├── 7. Cohort & Retention Analysis.sql              # Section 6 — Cohort, retention & market basket
 ├── README.md                                    # Project overview and instructions
 └── LICENSE                                      # License information for the repository
 ```
