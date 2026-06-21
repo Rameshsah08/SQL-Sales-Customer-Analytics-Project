@@ -18,6 +18,26 @@ The architecture follows a simple three-stage flow, sitting on top of the **Meda
 
 ---
 
+## 📂 Repository Structure
+
+```
+sql-sales-customer-analytics/
+├── Documentation
+  - Architecture.png                               # Architecture diagram (image)
+  - Business Questions                             # List of the all questions those used in this project
+  - Data Warehouse.png                             # data_warehouse Architectuure diagram
+  - Project_Architcture_draw.oi.png                # Architecture diagram (editable draw.io source)
+├── 1. Create table and insert data.sql            # Builds the gold schema & loads data from the warehouse
+├── 2. Sales_Analysis.sql                          # Section 1 — Sales performance
+├── 3. Products_Analysis.sql                       # Section 2 — Product performance
+├── 4. Customer Analytics.sql                      # Section 3 — Customer behavior
+├── 5. Customer Segmentation & Churn Analysis.sql  # Section 4 — Segmentation & churn
+├── 6. RFM Analysis.sql                            # Section 5 — RFM scoring & segmentation
+├── 7. Cohort & Retention Analysis.sql             # Section 6 — Cohort, retention & market basket
+├── README.md                                      # Project overview and instructions
+└── LICENSE                                        # License information for the repository
+```
+
 ## 🗂️ Data Model
 
 **Source → New Schema:** Gold layer tables from the upstream warehouse are copied into three new tables inside a dedicated `gold` schema.
@@ -192,27 +212,6 @@ Each module below is its own SQL script. For every one, I've outlined **why** I 
 - **Market Basket Analysis** — used a self-join on orders to find which products are frequently bought together, with a confidence score for each pair
 
 **Business Value:** Provides insights into customer loyalty, retention performance, and long-term revenue contribution. Helps identify when customers are most likely to return, become inactive, or generate the highest lifetime value.
-
----
-
-## 📂 Repository Structure
-
-```
-sql-sales-customer-analytics/
-├── Documentation
-  - Architecture.png                              # Architecture diagram (image)
-  - Data Warehouse.png                          # data_warehouse Architectuure diagram
-  - Project_Architcture_draw.oi.png              # Architecture diagram (editable draw.io source)
-├── 1. Create table and insert data.sql            # Builds the gold schema & loads data from the warehouse
-├── 2. Sales_Analysis.sql                          # Section 1 — Sales performance
-├── 3. Products_Analysis.sql                       # Section 2 — Product performance
-├── 4. Customer Analytics.sql                      # Section 3 — Customer behavior
-├── 5. Customer Segmentation & Churn Analysis.sql   # Section 4 — Segmentation & churn
-├── 6. RFM Analysis.sql                             # Section 5 — RFM scoring & segmentation
-├── 7. Cohort & Retention Analysis.sql              # Section 6 — Cohort, retention & market basket
-├── README.md                                    # Project overview and instructions
-└── LICENSE                                      # License information for the repository
-```
 
 ---
 
