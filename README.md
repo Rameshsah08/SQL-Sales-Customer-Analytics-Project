@@ -13,7 +13,7 @@ The architecture follows a simple three-stage flow, sitting on top of the **Meda
 2. **Analytics Data Model**: A dedicated `gold` schema in this project holding a star schema (1 fact table + 2 dimension tables) purpose-built for analytics.
 3. **Business Analytics Modules**: Six SQL scripts, each answering a set of business questions using the model above.
 
-4. <img width="1024" height="1334" alt="Archicture" src="https://github.com/user-attachments/assets/e337ff8c-43a5-4c80-8b5b-a8102dcbd919" />
+4. <img width="896" height="1167" alt="Archicture" src="https://github.com/user-attachments/assets/4431cb02-47dd-4438-8e31-f7e698daad04" />
 
 
 ---
