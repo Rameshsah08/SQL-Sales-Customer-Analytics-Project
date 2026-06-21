@@ -74,7 +74,7 @@ Everything used in this project is **free and open-source!**
 
 ## 🚀 Project Requirements
 
-### Building the Analytics Schema (Data Engineering)
+### Building the Analytics Schema
 
 #### Objective
 Build an analytics-ready `gold` schema using **MySQL**, populated from the upstream data warehouse's Gold layer, to enable SQL-based reporting and analysis.
