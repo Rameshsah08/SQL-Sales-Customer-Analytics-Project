@@ -1,7 +1,7 @@
 # 📊 SQL Sales & Customer Analytics Project
 
 Welcome to my **SQL Sales & Customer Analytics** repository! 🚀
-This project takes the business-ready **Gold layer** data produced by my earlier [SQL Data Warehouse Project](https://github.com/Rameshsah08/SQL_Data_Warehouse_Project) and uses it to deliver actionable sales, product, and customer insights. Built as a **portfolio project** to showcase my SQL analytics and business problem-solving skills for internship and job applications.
+This project takes the business-ready **Gold layer** data produced by my earlier [SQL Data Warehouse Project](https://github.com/Rameshsah08/SQL_Data_Warehouse_Project) and uses it to deliver actionable sales, product, and customer insights. Built as a **portfolio project** to showcase my SQL analytics and business problem-solving skills.
 
 ---
 
