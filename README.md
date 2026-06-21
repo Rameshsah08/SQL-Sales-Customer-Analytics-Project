@@ -9,11 +9,15 @@ This project takes the business-ready **Gold layer** data produced by my earlier
  
 The architecture follows a simple three-stage flow, sitting on top of the **Medallion (Bronze/Silver/Gold)** warehouse from the upstream project:
 
-<img width="1024" height="1334" alt="Archicture" src="https://github.com/user-attachments/assets/4bf83edf-394b-4787-9fc2-3bf0b91d1ae0" />
+<img width="1011" height="572" alt="Data Warehouse Diagram drawio (1)(1)" src="https://github.com/user-attachments/assets/8304abf6-cf02-4392-aaa6-092e5d942f25" />
+
 
 1. **Source Data (Gold Layer)**: Pre-built `customers_dim`, `products_dim`, and `sales_fact` tables, produced by the upstream [SQL Data Warehouse Project](https://github.com/Rameshsah08/SQL_Data_Warehouse_Project).
 2. **Analytics Data Model**: A dedicated `gold` schema in this project holding a star schema (1 fact table + 2 dimension tables) purpose-built for analytics.
 3. **Business Analytics Modules**: Six SQL scripts, each answering a set of business questions using the model above.
+
+4. <img width="1024" height="1334" alt="Archicture" src="https://github.com/user-attachments/assets/dc064a8b-d2ee-409c-b036-1d532419dd0e" />
+
 ---
  
 ## 📖 Project Overview
