@@ -68,7 +68,7 @@ Everything used in this project is **free and open-source!**
 - **[MySQL Community Server](https://dev.mysql.com/downloads/mysql/):** Free, open-source relational database for hosting the analytics schema.
 - **[MySQL Workbench](https://dev.mysql.com/downloads/workbench/):** Official GUI for designing, managing, and querying the MySQL database.
 - **[Git & GitHub](https://github.com/):** Version control and collaboration for managing project code efficiently.
-- **[DrawIO](https://app.diagrams.net/):** Design the architecture diagram.
+- **[Draw.IO](https://app.diagrams.net/):** Design the architecture diagram.
 
 ---
 
